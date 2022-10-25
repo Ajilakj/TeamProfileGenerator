@@ -4,10 +4,11 @@ describe('Manager class', () => {
      const mgr = new Mgr('mgr001','manager1','manager1@test.com','office001');
      
        it('Check Manager initialization', () => {
+
+          expect(mgr.getId()).toEqual('mgr001');
          
           expect(mgr.getName()).toEqual('manager1');
      
-          expect(mgr.getId()).toEqual('mgr001');
      
           expect(mgr.getEmail()).toEqual('manager1@test.com');
      });
