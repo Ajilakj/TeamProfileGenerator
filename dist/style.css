@@ -1,6 +1,6 @@
-/* body{
-     background-color: brown;
-} */
+body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 *{
      margin: 0;
      padding: 0;
@@ -14,10 +14,19 @@ header{
 }
 #empDetails{
      display: flex;
+     justify-content: center;
 }
 .card{
+     width:25vw;
      margin: 10px;
-     padding: 10px;
      box-shadow: 2px gray;
      border: 2px solid brown;
+}
+h2,h3{
+     background-color: blue;
+     color: azure;
+     padding: 10px;
+}
+p{
+     padding: 10px;
 }
