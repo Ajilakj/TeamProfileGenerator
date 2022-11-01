@@ -3,6 +3,9 @@
 ## Description
 This is a node application to accept data from command line then create HTML based on the input
 
+![](./public/dist/screenshot.png)
+[To view a video walkthrough  app]( https://drive.google.com/file/d/1fkdbNH3y3JD7HKvWkfk7MPmFh8GI31go/view)
+
 ## installation
 N/A
 
