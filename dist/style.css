@@ -17,9 +17,9 @@ header{
      justify-content: center;
 }
 .card{
-     width:25vw;
+     width:20vw;
      margin: 10px;
-     box-shadow: 2px gray;
+     box-shadow: 2px 2px gray;
      border: 2px solid brown;
 }
 h2,h3{
